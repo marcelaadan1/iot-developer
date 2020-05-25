@@ -1,7 +1,5 @@
 # Designing an IoT Solution
 
-[[_TOC_]]
-
 #### Estimated time
 
 01:00
@@ -92,3 +90,5 @@ In this part, identify the types of analytics that can be applied on the collect
 This exercise provided a closer look at designing the main components
 that are required for an IoT solution. You discovered how AI APIs can
 help transform traditional IT solutions.
+
+[Go back to _Exercises Guide Overview_](index.md)
