@@ -43,7 +43,7 @@ In this exercise, you complete the following tasks:
 <li> [ ] Specify the IoT devices network topology.</li>
 
 <li> [ ]  Explain how the data is managed and used.</li>
-</ol?
+</ol>
 
 1. [ ]  Identify the type of analytics that can be applied on the collected
     data to deliver better business value.
