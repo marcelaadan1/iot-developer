@@ -1,4 +1,4 @@
-# Designing an IoT Solution
+# Exercise 1. Designing an IoT Solution
 
 #### Estimated time
 
