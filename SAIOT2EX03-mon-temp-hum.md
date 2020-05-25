@@ -88,16 +88,19 @@ Complete the following steps:
 
 <!-- end list -->
 
-  - **Type**: Select **Device**.
+- **Type**: Select **Device**.
 
-  - **Name**: Enter **RoomSensors**
+- **Name**: Enter **RoomSensors**
 
-  - **Description**: This device monitors room temperature and humidity
+- **Description**: This device monitors room temperature and humidity
     
     Click **Next.**
 
 ![](media/SAIOT2EX03-mon-temp-hum_006.jpg)
 
-><span style="background-color:green">In this step, you create the **device type**, which is not the device itself. The device type *name* is used to identify the device type uniquely. For example, in a home automation system, a building     can have multiple air-conditioners that send the same data points,
+>In this step, you create the **device type**, which is not the device itself. The device type *name* is used to identify the device type uniquely. For example, in a home automation system, a building     can have multiple air-conditioners that send the same data points,
 >temperature, and humidity. In this case, you define **Device Type** as air-conditioner and have multiple devices of this type, for example, 1<sup>st</sup> Floor air-conditioner and 2<sup>nd</sup>
->Floor air-conditioner. In this exercise, the device type name is *RoomSensors*.</span>
+>Floor air-conditioner. In this exercise, the device type name is *RoomSensors*.
+
+<span style="background-color:blue">In this step, you create the **device type**, which is not the device itself. The device type *name* is used to identify the device type uniquely. For example, in a home automation system, a building     can have multiple air-conditioners that send the same data points, temperature, and humidity. In this case, you define **Device Type** as air-conditioner and have multiple devices of this type, for example, 1<sup>st</sup> Floor air-conditioner and 2<sup>nd</sup> Floor air-conditioner. In this exercise, the device type name is *RoomSensors*.</span>
+
