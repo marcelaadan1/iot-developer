@@ -4,12 +4,12 @@
 
 01:00
 
-### Overview
+## Overview
 
 In this exercise, students design a complete Internet of Things (IoT)
 solution by using IBM Watson IoT Platform.
 
-### Objectives
+## Objectives
 
 After completing this exercise, you should be able to:
 
