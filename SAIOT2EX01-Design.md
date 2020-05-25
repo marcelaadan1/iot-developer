@@ -35,13 +35,15 @@ Only paper and pen.
 ## Exercise instructions
 
 In this exercise, you complete the following tasks:
+<ol>
 
-1. [ ] Choose the IoT devices that you need to build the facility
-    management system.
+<li>[ ] Choose the IoT devices that you need to build the facility
+    management system.</li>
 
-1. [ ] Specify the IoT devices network topology.
+<li> [ ] Specify the IoT devices network topology.</li>
 
-1. [ ]  Explain how the data is managed and used.
+<li> [ ]  Explain how the data is managed and used.</li>
+</ol?
 
 1. [ ]  Identify the type of analytics that can be applied on the collected
     data to deliver better business value.
