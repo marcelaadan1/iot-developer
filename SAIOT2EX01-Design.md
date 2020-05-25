@@ -1,5 +1,7 @@
 # Designing an IoT Solution
 
+[[_TOC_]]
+
 #### Estimated time
 
 01:00
@@ -36,14 +38,14 @@ Only paper and pen.
 
 In this exercise, you complete the following tasks:
 
-1.  Choose the IoT devices that you need to build the facility
+1. [ ] Choose the IoT devices that you need to build the facility
     management system.
 
-2.  Specify the IoT devices network topology.
+1. [ ] Specify the IoT devices network topology.
 
-3.  Explain how the data is managed and used.
+1. [ ]  Explain how the data is managed and used.
 
-4.  Identify the type of analytics that can be applied on the collected
+1. [ ]  Identify the type of analytics that can be applied on the collected
     data to deliver better business value.
 
 ## _Part 1. Choosing IoT devices_
