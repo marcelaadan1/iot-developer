@@ -47,9 +47,9 @@ You must have an active IBM Cloud account.
 
 In this exercise, you complete the following tasks:
 
-[X] Configure devices on Watson IoT Platform.
+- [X] Configure devices on Watson IoT Platform.
 
-[x] Connect the device to the simulator.
+- [X] Connect the device to the simulator.
 
 ## _Part 1. Configuring devices on Watson IoT Platform_ 
 
