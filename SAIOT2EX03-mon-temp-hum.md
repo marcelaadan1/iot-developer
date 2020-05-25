@@ -47,9 +47,9 @@ You must have an active IBM Cloud account.
 
 In this exercise, you complete the following tasks:
 
-1. [X] Configure devices on Watson IoT Platform.
+[X] Configure devices on Watson IoT Platform.
 
-2. [x] Connect the device to the simulator.
+[x] Connect the device to the simulator.
 
 ## _Part 1. Configuring devices on Watson IoT Platform_ 
 
@@ -86,8 +86,6 @@ Complete the following steps:
 
 6. Specify the device type, name, and description as follows:
 
-<!-- end list -->
-
 - **Type**: Select **Device**.
 
 - **Name**: Enter **RoomSensors**
@@ -96,7 +94,7 @@ Complete the following steps:
     
     Click **Next.**
 
-![](media/SAIOT2EX03-mon-temp-hum_006.jpg)
+![](/media/SAIOT2EX03-mon-temp-hum_006.jpg)
 
 >**Note:** In this step, you create the **device type**, which is not the device itself. The device type *name* is used to identify the device type uniquely. For example, in a home automation system, a building can have multiple air-conditioners that send the same data points,
 >temperature, and humidity. In this case, you define **Device Type** as air-conditioner and have multiple devices of this type, for example, 1<sup>st</sup> Floor air-conditioner and 2<sup>nd</sup>
@@ -114,7 +112,7 @@ Complete the following steps:
 
 ![](/media/SAIOT2EX03-mon-temp-hum_008.jpg)
 
->The default way to add a device is to click **Devices** from the left navigation bar and then click **Add Device \+** as shown in the following figure.
+>**Note:** The default way to add a device is to click **Devices** from the left navigation bar and then click **Add Device \+** as shown in the following figure.
 
 ![](/media/SAIOT2EX03-mon-temp-hum_011.png.png)
 
@@ -133,15 +131,13 @@ Complete the following steps:
 
 >Optionally, you can modify the default device information and enter more information about the device for identification purposes.
     
-    ![](/media/SAIOT2EX03-mon-temp-hum_013.jpg)
+![](/media/SAIOT2EX03-mon-temp-hum_013.jpg)
 
 11. At the Security window, use the default option (Auto-generated authentication token) and click **Next**.
 
 >Optionally, you can provide your own authentication token for this device. Do not use this option for this exercise.
     
-    ![](/media/SAIOT2EX03-mon-temp-hum_014.jpg)
-
-<!-- end list -->
+![](/media/SAIOT2EX03-mon-temp-hum_014.jpg)
 
 12. At the Summary window, click **Finish**.
 
@@ -160,6 +156,6 @@ Complete the following steps:
 15. Click the back arrow on the upper left to return to the Watson IoT
     Platform dashboard.
     
-    ![](/media/SAIOT2EX03-mon-temp-hum_018.jpg)
+ ![](/media/SAIOT2EX03-mon-temp-hum_018.jpg)
 
 
