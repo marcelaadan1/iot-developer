@@ -3,7 +3,7 @@
 
 This course includes the following exercises:
 
-### Exercise 1. Designing an IoT solution
+[### Exercise 1. Designing an IoT solution](SAIOT2EX01-Design.md)
 In this exercise, students design an IoT solution by specifying IoT components that are necessary to build a facility management system. Students discover how Watson IoT Platform can help transform traditional facility management systems.
 
 ### Exercise 3. Creating an application to monitor room temperature and humidity
