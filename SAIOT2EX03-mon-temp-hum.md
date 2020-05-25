@@ -68,6 +68,7 @@ Complete the following steps:
     select **Resource List** as shown in the following figure.
 
 ![](/media/SAIOT2EX03-mon-temp-hum_001.jpg)
+1. testing step 1 
 
 2. Expand the **Services** section and double-click the **Internet of
     Things Platform** service.
