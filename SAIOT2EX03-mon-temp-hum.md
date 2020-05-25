@@ -98,11 +98,11 @@ Complete the following steps:
 
 ![](media/SAIOT2EX03-mon-temp-hum_006.jpg)
 
->**Note:** In this step, you create the **device type**, which is not the device itself. The device type *name* is used to identify the device type uniquely. For example, in a home automation system, a building     can have multiple air-conditioners that send the same data points,
+>**Note:** In this step, you create the **device type**, which is not the device itself. The device type *name* is used to identify the device type uniquely. For example, in a home automation system, a building can have multiple air-conditioners that send the same data points,
 >temperature, and humidity. In this case, you define **Device Type** as air-conditioner and have multiple devices of this type, for example, 1<sup>st</sup> Floor air-conditioner and 2<sup>nd</sup>
 >Floor air-conditioner. In this exercise, the device type name is *RoomSensors*.
 
->**Information:** In certain situations, if the device cannot directly connect to the internet, it is aggregated first through a **gateway**. A gateway device can be built to retrieve and send data to applications in
+>**Information:** In certain situations, if the device cannot directly connect to the internet, it is aggregated first through a gateway. A gateway device can be built to retrieve and send data to applications in
 >your Watson IoT Platform by using the MQTT or HTTP messaging protocol. In this exercise, you use the default device type (you do not need a gateway).
 
 7. It is optional to add more information about the device type, such as *Serial Number*, *Model,* *Hardware Version,* and more.
@@ -114,9 +114,9 @@ Complete the following steps:
 
 ![](/media/SAIOT2EX03-mon-temp-hum_008.jpg)
 
->The default way to add a device is to click **Devices** from the left navigation bar and then click **Add Device + ** as shown in the following figure.
+>The default way to add a device is to click **Devices** from the left navigation bar and then click **Add Device \+** as shown in the following figure.
 
->![](/media/SAIOT2EX03-mon-temp-hum_011.png.png)
+![](/media/SAIOT2EX03-mon-temp-hum_011.png.png)
 
 9. Select the device type that you previously created and enter a
     unique device ID as follows:
