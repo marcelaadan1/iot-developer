@@ -62,18 +62,9 @@ Complete the following steps:
 
 1.  Log in to IBM Cloud . From the Navigation Menu (hamburger button),
     select **Resource List** **as shown in the following figure.**
-
-![](media/image1.png)
-
 3.  Expand the **Services** section and double-click the **Internet of
     Things Platform** service.
-
-![](media/image2.png)
-
 4.  Click **Launch** to get started with Watson IoT Platform.
-
-![](media/image3.png)
-
 5.  The Browse Devices window opens**,** as shown in the following
     figure.
 
