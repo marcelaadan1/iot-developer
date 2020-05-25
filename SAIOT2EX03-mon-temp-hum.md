@@ -98,10 +98,68 @@ Complete the following steps:
 
 ![](media/SAIOT2EX03-mon-temp-hum_006.jpg)
 
->In this step, you create the **device type**, which is not the device itself. The device type *name* is used to identify the device type uniquely. For example, in a home automation system, a building     can have multiple air-conditioners that send the same data points,
+>**Note:** In this step, you create the **device type**, which is not the device itself. The device type *name* is used to identify the device type uniquely. For example, in a home automation system, a building     can have multiple air-conditioners that send the same data points,
 >temperature, and humidity. In this case, you define **Device Type** as air-conditioner and have multiple devices of this type, for example, 1<sup>st</sup> Floor air-conditioner and 2<sup>nd</sup>
 >Floor air-conditioner. In this exercise, the device type name is *RoomSensors*.
 
-"<span style="background-color:blue">In this step, you create the **device type**, which is not the device itself. The device type *name* is used to identify the device type uniquely. For example, in a home automation system, a building     can have multiple air-conditioners that send the same data points, temperature, and humidity. In this case, you define **Device Type** as air-conditioner and have multiple devices of this type, for example, 1<sup>st</sup> Floor air-conditioner and 2<sup>nd</sup> Floor air-conditioner. In this exercise, the device type name is *RoomSensors*.</span>"
+>**Information:** In certain situations, if the device cannot directly connect to the internet, it is aggregated first through a **gateway**. A gateway device can be built to retrieve and send data to applications in
+>your Watson IoT Platform by using the MQTT or HTTP messaging protocol. In this exercise, you use the default device type (you do not need a gateway).
 
-"And here's to you, <span style="background-color:green">Mrs. Robinson</span>, Jesus loves you more than you will know."
+7. It is optional to add more information about the device type, such as *Serial Number*, *Model,* *Hardware Version,* and more.
+    Click **Finish** as shown in the following figure.
+
+![](/media/SAIOT2EX03-mon-temp-hum_007.jpg)
+
+8. Click **Register Devices** to register a device of type RoomSensors.
+
+![](/media/SAIOT2EX03-mon-temp-hum_008.jpg)
+
+>The default way to add a device is to click **Devices** from the left navigation bar and then click **Add Device + ** as shown in the following figure.
+
+>![](/media/SAIOT2EX03-mon-temp-hum_011.png.png)
+
+9. Select the device type that you previously created and enter a
+    unique device ID as follows:
+
+  - *Device Type*: **RoomSensors**
+
+  - *Device ID*: **TempreatureAndHumidity1**
+    
+    Click **Next.**
+
+![](/media/SAIOT2EX03-mon-temp-hum_012.jpg)
+
+10. At the **Device Information** window, use the default values and click **Next**.
+
+>Optionally, you can modify the default device information and enter more information about the device for identification purposes.
+    
+    ![](/media/SAIOT2EX03-mon-temp-hum_013.jpg)
+
+11. At the Security window, use the default option (Auto-generated authentication token) and click **Next**.
+
+>Optionally, you can provide your own authentication token for this device. Do not use this option for this exercise.
+    
+    ![](/media/SAIOT2EX03-mon-temp-hum_014.jpg)
+
+<!-- end list -->
+
+12. At the Summary window, click **Finish**.
+
+![](/media/SAIOT2EX03-mon-temp-hum_015.jpg)
+
+13. A window with the device credentials opens, as shown in the
+    following figure.
+
+>**IMPORTANT:** You must save the authentication token because after the window that is shown in the following figure closes, you cannot access the authentication token again. 
+>If you lose the authentication token, you must reregister the device to generate a new authentication token.
+
+![](/media/SAIOT2EX03-mon-temp-hum_017.jpg)
+
+14. Copy the **Authentication Token** that is show in the credentials page, and save it in a safe place for later use.
+
+15. Click the back arrow on the upper left to return to the Watson IoT
+    Platform dashboard.
+    
+    ![](/media/SAIOT2EX03-mon-temp-hum_018.jpg)
+
+
