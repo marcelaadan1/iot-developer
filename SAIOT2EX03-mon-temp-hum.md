@@ -1,4 +1,8 @@
 # Exercise 3. Creating an application to monitor room temperature and humidity
+Testing ordered list
+1. item 1
+1. Item 2
+1. Item 3
 
 #### Estimated time
 
