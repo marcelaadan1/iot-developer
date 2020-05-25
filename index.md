@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages - index.md
+# IoT Cloud Developer 2020
+### *Exercises Guide*
+This course includes the following exercises:
 
-You can use the [editor on GitHub](https://github.com/marcelaadan1/iot-developer/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Exercise 1. Designing an IoT solution
+In this exercise, students design an IoT solution by specifying IoT components that are necessary to build a facility management system. Students discover how Watson IoT Platform can help transform traditional facility management systems.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/marcelaadan1/iot-developer/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Exercise 3. Creating an application to monitor room temperature and humidity
+In this exercise, you create an IoT system by using IBM Watson IoT Platform. The purpose of the system is to monitor the temperature and humidity of a facility and optimize the use of air conditioning. You use the Watson IoT Platform device simulator to simulate the devices that send temperature and humidity values through the internet to Watson IoT Platform. Finally, you visualize the data that is sent by the devices in real time by using the dashboard.
