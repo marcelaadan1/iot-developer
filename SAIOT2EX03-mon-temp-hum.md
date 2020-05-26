@@ -1,5 +1,20 @@
 # Exercise 3. Creating an application to monitor room temperature and humidity
 
+## Table of Contents
+
+  * [Overview](#overview)
+  * [Objectives](#objectives)
+  * [Introduction](#introduction)
+  * [Prerequisites](#prerequisites)
+  * [Requirements](#requirements)
+  * [Exercise instructions](#exercise-instructions)
+  * [Part 1. Configuring devices on Watson IoT Platform](#part-1-configuring-devices-on-watson-iot-platform)
+  * [Part 2. Connecting the device to the simulator](#part-2-connecting-the-device-to-the-simulator)
+  * [Exercise review and wrap-up](#exercise-review-and-wrap-up)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 #### Estimated time
 
 00:45
