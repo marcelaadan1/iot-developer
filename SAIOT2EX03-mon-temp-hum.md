@@ -183,7 +183,7 @@ Complete the following steps:
 
     - *Device ID:* TempreatureAndHumidity1
 
-    - *Device Token:* The **Authentication Token** from Part 1
+    - *Device Token:* The **Authentication Token** from [Part 1](#part-1-configuring-devices-on-watson-iot-platform)
 
     Click **Save changes**.
 
