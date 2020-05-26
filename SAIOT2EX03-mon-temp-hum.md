@@ -114,18 +114,18 @@ Complete the following steps:
 
    >**Note:** The default way to add a device is to click **Devices** from the left navigation bar and then click **Add Device \+** as shown in the following figure.
 
-  ![](/media/SAIOT2EX03-mon-temp-hum_011.png.png)
+   ![](/media/SAIOT2EX03-mon-temp-hum_011.png.png)
 
 9. Select the device type that you previously created and enter a
     unique device ID as follows:
 
-  - *Device Type*: **RoomSensors**
+   - *Device Type*: **RoomSensors**
 
-  - *Device ID*: **TempreatureAndHumidity1**
+   - *Device ID*: **TempreatureAndHumidity1**
     
     Click **Next.**
 
-   ![](/media/SAIOT2EX03-mon-temp-hum_012.jpg)
+    ![](/media/SAIOT2EX03-mon-temp-hum_012.jpg)
 
 10. At the **Device Information** window, use the default values and click **Next**.
 
