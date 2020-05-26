@@ -129,13 +129,13 @@ Complete the following steps:
 
 10. At the **Device Information** window, use the default values and click **Next**.
 
-    >Optionally, you can modify the default device information and enter more information about the device for identification purposes.
+    >**Note:** Optionally, you can modify the default device information and enter more information about the device for identification purposes.
     
     ![](/media/SAIOT2EX03-mon-temp-hum_013.jpg)
 
 11. At the Security window, use the default option (Auto-generated authentication token) and click **Next**.
 
-    >Optionally, you can provide your own authentication token for this device. Do not use this option for this exercise.
+    >**Note:** Optionally, you can provide your own authentication token for this device. Do not use this option for this exercise.
     
     ![](/media/SAIOT2EX03-mon-temp-hum_014.jpg)
 
@@ -146,16 +146,16 @@ Complete the following steps:
 13. A window with the device credentials opens, as shown in the
     following figure.
 
-   >**IMPORTANT:** You must save the authentication token because after the window that is shown in the following figure closes, you cannot access the authentication token again. 
-   >If you lose the authentication token, you must reregister the device to generate a new authentication token.
+    >**IMPORTANT:** You must save the authentication token because after the window that is shown in the following figure closes, you cannot access the authentication token again. 
+    >If you lose the authentication token, you must reregister the device to generate a new authentication token.
 
-   ![](/media/SAIOT2EX03-mon-temp-hum_017.jpg)
+    ![](/media/SAIOT2EX03-mon-temp-hum_017.jpg)
 
 14. Copy the **Authentication Token** that is show in the credentials page, and save it in a safe place for later use.
 
 15. Click the back arrow on the upper left to return to the Watson IoT
     Platform dashboard.
     
-   ![](/media/SAIOT2EX03-mon-temp-hum_018.jpg)
+    ![](/media/SAIOT2EX03-mon-temp-hum_018.jpg)
 
 
