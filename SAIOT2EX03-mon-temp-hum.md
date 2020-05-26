@@ -96,9 +96,7 @@ Complete the following steps:
 
    ![](/media/SAIOT2EX03-mon-temp-hum_006.jpg)
 
-   >**Note:** In this step, you create the **device type**, which is not the device itself. The device type *name* is used to identify  the device type uniquely. For example, in a home automation system, a building can have multiple air-conditioners that send the same data points,
->temperature, and humidity. In this case, you define **Device Type** as air-conditioner and have multiple devices of this type, for example, 1<sup>st</sup> Floor air-conditioner and 2<sup>nd</sup>
->Floor air-conditioner. In this exercise, the device type name is *RoomSensors*.
+   >**Note:** In this step, you create the **device type**, which is not the device itself. The device type *name* is used to identify  the device type uniquely. For example, in a home automation system, a building can have multiple air-conditioners that send the same data points, temperature, and humidity. In this case, you define **Device Type** as air-conditioner and have multiple devices of this type, for example, 1<sup>st</sup> Floor air-conditioner and 2<sup>nd</sup> Floor air-conditioner. In this exercise, the device type name is *RoomSensors*.
 
    >**Information:** In certain situations, if the device cannot directly connect to the internet, it is aggregated first through a gateway. A gateway device can be built to retrieve and send data to applications in
 >your Watson IoT Platform by using the MQTT or HTTP messaging protocol. In this exercise, you use the default device type (you do not need a gateway).
@@ -158,4 +156,133 @@ Complete the following steps:
     
     ![](/media/SAIOT2EX03-mon-temp-hum_018.jpg)
 
+## _Part 2. Connecting the device to the simulator_ 
 
+To test Watson IoT Platform, you can use a simulated device that acts
+like a real device. This simulator generates programmed and customized
+values for temperature and humidity, then it sends them through the
+internet to Watson IoT Platform. However, the device must be configured
+to authenticate itself to Watson IoT Platform.
+
+Complete the following steps:
+
+1. Get the **Organization ID** of your **IBM Watson IoT Platform**
+    instance from the upper right of the window, as shown in the
+    following figure.
+
+    ![](media/SAIOT2EX03-mon-temp-hum_020.jpg)
+
+1.  Access Watson IoT Sensor Simulator by opening a new tab in the
+    browser and entering the URL
+    <http://watson-iot-sensor-simulator.mybluemix.net/>. A dialog box
+    opens, as shown in the following figure. Complete it as follows:
+
+    - *Organization ID:* Your organization ID from step 1
+
+    - *Device Type:* RoomSensors
+
+    - *Device ID:* TempreatureAndHumidity1
+
+    - *Device Token:* The **Authentication Token** from Part 1
+
+    Click **Save changes**.
+
+    ![](media/SAIOT2EX03-mon-temp-hum_021.jpg)
+
+1. The simulator sends its data to the device that was created in Part
+    1, as shown in the following figures. To check the temperature, the
+    humidity, and the object temperature values, go between the pages by
+    swiping left and right.
+
+    ![](media/SAIOT2EX03-mon-temp-hum_022.jpg)
+
+    ![](media/SAIOT2EX03-mon-temp-hum_023.jpg)
+
+    ![](media/SAIOT2EX03-mon-temp-hum_024.jpg)
+
+1. To view the status and the data that is collected, go to the **IBM
+    Watson IoT Platform** **Boards menu that can be accessed from the
+    upper-right icon,** as shown in the following figure.
+
+    ![](media/SAIOT2EX03-mon-temp-hum_025.jpg)
+
+1. Click **Usage Overview**, which includes three cards, to see the
+    status and the data of your simulated device.
+
+   >**Note:** There is a board that is called **Risk and Security Overview**,
+   >which is provided by default after you create the service from
+   >IBM Cloud. **Usage Overview** is created automatically after the
+   >device and the device type creation.
+
+1. In the Usage Overview page, click **\+ Add New Card**, as shown in
+    the following figure.
+
+   ![](media/SAIOT2EX03-mon-temp-hum_026.png)
+
+1. There are different types of cards for data visualization, usage,
+    risk management, and more as shown in the following figure. Click
+    **Line chart.**
+
+   ![](media/SAIOT2EX03-mon-temp-hum_027.jpg)
+
+1. Select the device that you want to monitor by clicking the radio
+    button to its left. In this case, it is TempreatureAndHumidity1.
+    Click **Next,** as shown in the following figure.
+    
+    ![](media/SAIOT2EX03-mon-temp-hum_028.jpg)
+
+1. Click **\+ Connect new data set**.
+    
+   ![](media/SAIOT2EX03-mon-temp-hum_029.png)
+
+1. Complete the form as follows:
+
+    - Event: **iotsensor**
+
+    - Property: **temperature**
+
+    - Name: **temperature**
+
+    - Type: **Number**
+
+    - Unit: **C**
+
+    - Min: **0**
+
+    - Max: **100**
+    
+    Click **Next.**
+
+    ![](media/SAIOT2EX03-mon-temp-hum_030.jpg)
+
+1. In Create Line chart Card, select **XL** for better visualization,
+    and click **Next**.
+    
+    ![](media/SAIOT2EX03-mon-temp-hum_031.jpg)
+
+1. In the next window, accept the defaults and click **Submit**.
+    
+    ![](media/SAIOT2EX03-mon-temp-hum_032.jpg)
+
+1. Go back to the simulated device (Watson IoT Sensor Simulator) and
+    keep changing the temperature values by using the up and down
+    arrows, as shown in the following figure.
+
+   ![](media/SAIOT2EX03-mon-temp-hum_033.jpg)
+
+1. Monitor the line chart in IBM Watson IoT Platform under the
+    Usage Overview card to validate the changes in the values, as
+    shown in the following figure. As shown in the following chart,
+    changes in the temperature up and down using the arrows are
+    reflected in the chart
+
+   ![](media/SAIOT2EX03-mon-temp-hum_034.jpg)
+
+## Exercise review and wrap-up
+
+Now, you can identify the difference between device type and device and
+how to configure both. Also, you can connect a device to Watson IoT
+Platform and visualize the data in real time with a pre-built UI
+dashboard.
+
+[Go back to _Exercises Guide Overview_](index.md)
